@@ -337,3 +337,63 @@
 }
 
 /* gifts section style start */
+
+/* news-letter section style */
+
+.newsletter-container {
+  width: 82.5%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: #ff00000d;
+  margin-top: 120px;
+  text-align: center;
+}
+.news-image {
+  padding-top: 80px;
+}
+.news-image img {
+  width: 150px;
+  height: 150px;
+}
+
+.news-heading {
+  margin-top: 40px;
+  margin-bottom: 22px;
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.news-text {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.news-form {
+  padding-bottom: 80px;
+}
+.input-email {
+  width: 40%;
+  padding: 25px 30px;
+  outline: none;
+  border: none;
+  border-radius: 50px 0 0 50px;
+}
+.input-btn {
+  width: 25%;
+  padding: 25px 30px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -5px;
+}
+/* news-letter section style */
