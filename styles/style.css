@@ -153,3 +153,55 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* party section style end */
+
+/* location section style start */
+
+.location-container {
+  width: 82.5%;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.2px solid rgba(255, 0, 0, 0.1);
+  margin-top: 120px;
+  border-radius: 8px;
+  padding-bottom: 110px;
+  padding-top: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.location-text {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.location-text span {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.location-btn {
+  padding: 16px 32px;
+  text-transform: capitalize;
+  background: #ff0000;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-top: 48px;
+}
+.location-btn:hover {
+  box-shadow: 10px 10px 20px #e34a4ade;
+  transition: all 0.8s;
+}
