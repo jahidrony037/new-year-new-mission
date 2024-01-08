@@ -205,3 +205,89 @@
   box-shadow: 10px 10px 20px #e34a4ade;
   transition: all 0.8s;
 }
+
+/* location style end */
+
+/* best-offer section style start */
+
+.best-offer-container {
+  width: 82.5%;
+  margin: 0 auto;
+  margin-top: 120px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.best-offer-info {
+  width: 393px;
+}
+.best-offer-title {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.best-offer-image {
+  border: 16px solid #ff0000;
+  border-radius: 50%;
+  padding: 49px;
+}
+.best-offer-image img:hover {
+  transform: scale(1.28);
+  transition: 1.5s;
+}
+
+.best-offer-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.best-offer-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.best-offer-image {
+  margin-left: 27px;
+  margin-right: 90px;
+}
+
+.best-offer-image img {
+  width: 364px;
+}
+
+.best-offer-year {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.best-offer-calendar {
+  width: 200px;
+}
+.best-offer-text-right {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 43px;
+  margin-top: 16px;
+  width: 200px;
+}
+
+.best-offer-newyear img {
+  width: 140px;
+  height: 140px;
+}
+/* best-offer section style end */
