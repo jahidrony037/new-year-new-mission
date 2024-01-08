@@ -291,3 +291,49 @@
   height: 140px;
 }
 /* best-offer section style end */
+
+/* gifts section style start */
+
+.gifts-container {
+  width: 82.5%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.gifts-title {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gifts-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.gifts-text {
+  color: #07021199;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 48px;
+  width: 896px;
+}
+
+.gift-images {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gift-image img {
+  width: 100%;
+}
+
+/* gifts section style start */
