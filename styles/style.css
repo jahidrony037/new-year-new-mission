@@ -19,7 +19,7 @@
 /* banner or header section style start */
 
 .banner-container {
-  width: 82%;
+  width: 82.5%;
   margin: 0 auto;
   border: 1px solid black;
   text-align: center;
@@ -97,3 +97,59 @@
 }
 
 /* happy new year section style end */
+
+/* mid night party section style start */
+.midnight-party-container {
+  width: 82.5%;
+  border: 0.5px solid black;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  background-image: url("../images/celebration.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.party-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.party-info {
+  padding-left: 126px;
+}
+
+.party-text {
+  color: #ffffffcc;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 38px;
+}
+
+.party-image {
+  padding-right: 136px;
+  padding-top: 68px;
+  padding-bottom: 67px;
+}
+
+.party-image img {
+  max-width: 300px;
+}
+
+.party-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
